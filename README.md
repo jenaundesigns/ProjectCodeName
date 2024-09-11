@@ -234,7 +234,7 @@ The use of cryptonyms combined with nonces is crucial for ensuring compartmental
 
 🔑Increase the length of the [nonce = GenerateNonce(3)] from (3) to a higher integer (#).
 
-🔑Add additional colors periodically within the VBA code under Define array of colors [colors = Array("Red", "Blue", "...")].
+🔑Add additional colors periodically within the VBA code under define array of colors [colors = Array("Red", "Blue", )].
 
 🔑Add additional animals to the AnimalsList sheet of the workbook.
 
