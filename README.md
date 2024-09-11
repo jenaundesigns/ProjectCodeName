@@ -224,7 +224,7 @@ For ease of convenience, also navigate to the Developer tab on Excel, and under 
 
 ![image](https://github.com/user-attachments/assets/e684ff09-98fa-46e6-8bf4-117f1c2ec98a)
 
-The use of cryptonyms combined with nonces is crucial for ensuring compartmentalization in sensitive or classified projects, particularly in fields like intelligence, security, and research. This is a great and easy way to maintain cryptonyms, to add a layer of protection for your projects and maintain compartmentalization. Recommend keeping the cryptonym key with the actual project names (deciphered) in a completely seperate file location (as a standalone, preferably), such as on an encrypted cold storage device (password protected) that is in a secure lock box, etc. 
+The use of cryptonyms combined with nonces is crucial for ensuring compartmentalization in sensitive or classified projects, particularly in fields like intelligence, security, and research. This is a great and easy way to maintain cryptonyms, to add a layer of protection for your projects and maintain compartmentalization. Recommend keeping the cryptonym key with the actual project names (deciphered) in a completely separate file location (as a standalone, preferably), such as on an encrypted cold storage device (password protected) that is in a secure lock box, etc. 
 
 ✨**Additional ways to add more Security**✨
 
