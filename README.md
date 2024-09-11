@@ -8,7 +8,7 @@ In simpler terms, a codename is an agreed-upon name used to conceal what you're 
 In industry, codenames are commonly assigned to products during the development phase to safeguard them from competitors. 
 Similarly, in the military, codenames are frequently used to refer to missions or operations, ensuring their details remain confidential.
 
-⚡How this VBA was coded This code will generate a project codename where:
+⚡How this VBA was coded - This code will generate a project codename where:
 
 	The first output is a random color.
 	The second output is a random animal.
