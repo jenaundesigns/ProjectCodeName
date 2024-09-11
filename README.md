@@ -34,7 +34,7 @@ Similarly, in the military, codenames are frequently used to refer to missions o
   		 ' Convert the range of animals into an array
    		 animals = Application.Transpose(animalRange.Value)
   
-			' Generate a random nonce (3-character alphanumeric string)
+		' Generate a random nonce (3-character alphanumeric string)
    		 nonce = GenerateNonce(3)
 
   		' Generate random indices for color and animal
@@ -46,12 +46,12 @@ Similarly, in the military, codenames are frequently used to refer to missions o
    		 color = colors(randomColor)
    		 animal = animals(randomAnimal)
     
-    	' Combine color, animal, and nonce to create the project name
+   		' Combine color, animal, and nonce to create the project name
   		projectName = color & " " & animal & " " & nonce
 
 - ✅ Result: The code name is a combination of the random color, animal, and nonce.
 
-		 ' Output the generated project code name to a cell
+		' Output the generated project code name to a cell
   		Sheets("ProjectCodeName").Range("B2").Value = projectName
   		MsgBox "Your generated project codename is: " & projectName
 
@@ -150,7 +150,7 @@ In column A of the "AnimalsList" sheet, list all the animals starting from cell 
 
 VBA Code can be copy/pasted into VBA module from the file attached to this repository, see (Project_Codename_Generator.xlsm - Module1), or directly below:
 
-	Sub GenerateCodeNameWithExpandedAnimalList()
+    Sub GenerateCodeNameWithExpandedAnimalList()
     Dim colors As Variant
     Dim animals As Variant
     Dim color As String
@@ -216,11 +216,11 @@ VBA Code can be copy/pasted into VBA module from the file attached to this repos
     GenerateNonce = result
 	End Function
 
-On "ProjectCodeName" sheet, make sure you set it up so your project name response can populate on cell "B2", which is how this VBA cade was setup (or change it in the indicated field on the VBA module):
+On "ProjectCodeName" sheet, make sure you set it up so your project name response can populate on cell "B2", which is how this VBA code was setup (or change it in the indicated field on the VBA module):
 
 ![image](https://github.com/user-attachments/assets/380d0561-c4fd-4c2a-a14f-0d516736052f)
 
-For ease of convenience, also navigate to the Developer tab on Excel, and under Controls > Insert > Button (under Forms), and draw button next to B2 cell (select the macro after you have saved it), then right click to edit text inside button (used GENERATE here):
+For ease of convenience, also navigate to the Developer tab on Excel, and under Controls > Insert > Button (under Forms), and draw button next to the B2 cell (select the macro after you have saved it), then right click on button to edit text displayed (used GENERATE here):
 
 ![image](https://github.com/user-attachments/assets/e684ff09-98fa-46e6-8bf4-117f1c2ec98a)
 
